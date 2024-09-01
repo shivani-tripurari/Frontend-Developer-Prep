@@ -27,3 +27,8 @@ obj1.mysymb="1234abc";
 console.log(obj1);
 console.log(obj1["mysymb"]);
 
+const objNew = Object.assign({},obj1,obj2);
+console.log(objNew);
+
+const objDash = {...obj1, ...obj2};
+console.log(objDash);
