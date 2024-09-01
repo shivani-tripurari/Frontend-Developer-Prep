@@ -9,4 +9,7 @@ const better = example.trim();
 const url = "https://shivani@1229.com";
 const newUrl = url.replace('vani','lulu');
 
+console.log("Open this in browser "+my_name+" and "+another); //old method dont use it
+console.log(`Open in the web browser ${my_name} and ${another}`) //new version use this
+
 console.table([my_name, another,typeof(my_name), typeof(another), egSub,egTrim,egSub1,egTrim1, example, better,url, newUrl]);
