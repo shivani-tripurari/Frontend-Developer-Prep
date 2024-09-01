@@ -27,6 +27,3 @@ obj1.mysymb="1234abc";
 console.log(obj1);
 console.log(obj1["mysymb"]);
 
-const arr = ["shivani", "vilulu"];
-console.log(arr);
-console.log(arr.push("shilulu"));
