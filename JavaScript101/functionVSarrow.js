@@ -9,7 +9,8 @@ var obj = {
     }
     
 }
-console.log(obj.one());
-console.log(obj.two());
+// console.log(obj.one());
+// console.log(obj.two());
 
-console.log(this);
+// console.log(this);
+console.log(obj.length);
