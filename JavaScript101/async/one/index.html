@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS project-1</title>
+</head>
+<body >
+    <h1>Filter Caffffeeeeeeeee</h1>
+    <button id="stop">Stop</button>
+
+    <script>
+        const bodyStyle = document.querySelector("body");
+        bodyStyle.style.backgroundColor = "#222222";
+        const textStyle = document.querySelectorAll("h1")
+        textStyle[0].style.color = "#fefefe"
+        setTimeout(()=>{
+            console.log("Shiluluuuuu")
+        },3000)
+
+        const newName = ()=>{
+            const newHeading = document.querySelector('h1').textContent="Have a filter caffeeeee";
+            console.log(newHeading);
+            
+        }
+        const setNewName = setTimeout(newName,3000);
+
+        document.querySelector('#stop').addEventListener('click', ()=>{
+            clearTimeout(setNewName)
+            console.log("stopped");
+            
+        })
+    </script>
+</body>
+</html>

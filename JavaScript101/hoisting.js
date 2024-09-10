@@ -2,8 +2,8 @@
 
 
 console.log(getName()); //here, I am able to call and execute getName() because in Phase1 the function and it's definition is allocated memory
-//console.log(Icecream);
-//console.log(branch);
+console.log(Icecream);
+console.log(branch);
 console.log(rollNo); 
 
 var rollNo = 549;   //works only for var , not for let & const ---> in Phase1 memory is allocated to undefined only for var
@@ -19,5 +19,6 @@ const Icecream=()=>{
 let branch = function(){
     console.log("CSE") //in case of "expression" syntax it is treated as normal variable
 }
-console.log(Icecream());
-console.log(branch());
+//console.log(rollNo)
+// console.log(Icecream());
+// console.log(branch());

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS project-1</title>
+</head>
+<body >
+    <h1>Have a Filter Caffffeeeeeeeee</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+        const bodyStyle = document.querySelector("body");
+        bodyStyle.style.backgroundColor = "#222222";
+        const textStyle = document.querySelectorAll("h1")
+        textStyle[0].style.color = "#fefefe"
+        let counter = 0;
+        let setMessage;
+       
+        const newCust = (str)=>{
+            console.log(`${str} Customer at ${Date.now()}`)
+            counter=1;
+            console.log(counter)
+        }
+        const sendMessage=()=>{
+            if(!setMessage){
+                setMessage = setInterval(newCust,3000,"Konnichiwa !")
+            }
+        }
+
+        const removeCust = ()=>{
+           if(setMessage){
+            counter=0;
+            clearInterval(sendMessage)
+            console.log("Ja mata !")
+            console.log(counter);
+           }
+            
+        }
+        
+        document.querySelector('#start').addEventListener("click",sendMessage);
+        document.querySelector('#stop').addEventListener("click",removeCust)
+    </script>
+</body>
+</html>

@@ -27,22 +27,22 @@ console.log(objNew2);
 console.log(objNew2.task());
 console.log(objNew2.username);
 
-///////////////////////////////////////////////////////////////////////////////////////
+// ///////////////////////////////////////////////////////////////////////////////////////
 
-// var objNew3 = {
-//     username : "Vishnu",
-//     task : function normal(){
-//             let username = "Shivani";
-//             //console.log(this.username);
-//             console.log(this.username);
-//              }
-// }
-// console.log(objNew3);
-// console.log(objNew3.task());
-// console.log(objNew3.username);
+// // var objNew3 = {
+// //     username : "Vishnu",
+// //     task : function normal(){
+// //             let username = "Shivani";
+// //             //console.log(this.username);
+// //             console.log(this.username);
+// //              }
+// // }
+// // console.log(objNew3);
+// // console.log(objNew3.task());
+// // console.log(objNew3.username);
 
 
-//////////////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////////////
 var objNew4 = {
     username:"Vishnu",
     task : function normal(){
@@ -50,6 +50,6 @@ var objNew4 = {
         console.log(this.username);
     }
 }
-console.log(objNew3);
-console.log(objNew3.task());
-console.log(objNew3.username);
+console.log(objNew4);
+console.log(objNew4.task());
+console.log(objNew4.username);
