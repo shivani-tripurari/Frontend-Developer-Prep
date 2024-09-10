@@ -23,7 +23,7 @@
 
 </body>
 <script>
-    const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+    const requestUrl = 'https://api.github.com/users/shivani-tripurari'
     const xhr = new XMLHttpRequest();
     xhr.open('GET', requestUrl)
     xhr.onreadystatechange = function(){
@@ -51,3 +51,11 @@
 </html>
 
 <!-- This is api calling using XMLhttpRequest, widely used in AJAX. This was used way before frtch came into action -->
+<!-- xhr.onreadystatechange is an event handler that fires every time the readyState of the request changes. readyState represents the different stages of the request:
+
+0: Unsent
+1: Opened
+2: Headers received
+3: Loading (response is being downloaded)
+4: Done (the entire response has been received)
+if (xhr.readyState === 4 && xhr.status === 200) ensures that we only process the response when the request is complete (readyState === 4) and successful (status === 200). -->
