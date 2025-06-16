@@ -5,14 +5,25 @@ List of questions :
 1. Carousel
 2. Accordian
 3. Timer, stop watch
-4. Auto complete
-5. Form component with validations
-6. Pagination
-7. Infinite scroll
-8. To-do list
-9. Note taking 
+4. Analog Clock
+5. Auto complete
+6. Form component with validations
+7. Pagination
+8. Progress bar
+9. To-do list
+10. Note taking
+11. Star rating
+12. Poll widget
 
 **Medium :**
+1. Youtube/facebook comment component
+2. Infinite scroll
+3. Flipkart search (debouncing or throttle)
+4. Chat application
+5. Todo-list with drag and drop
+6. Kanban board component
+7. Tic-tac-toe
 
 **Difficult :**
 1. Design a News feed application (quora, reddit)
+2. Food ordering app (search, wishlist, add to cart, filters)
