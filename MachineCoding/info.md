@@ -14,6 +14,7 @@ List of questions :
 10. Note taking
 11. Star rating
 12. Poll widget
+13. Live character count
 
 **Medium :**
 1. Youtube/facebook comment component
