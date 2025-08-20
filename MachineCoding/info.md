@@ -22,7 +22,7 @@ List of questions :
 3. Flipkart search (debouncing or throttle)
 4. Chat application
 5. Todo-list with drag and drop
-6. Kanban board component
+6. Kanban board component (Trello board)
 7. Tic-tac-toe
 
 **Difficult :**
