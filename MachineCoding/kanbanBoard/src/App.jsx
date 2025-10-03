@@ -29,6 +29,7 @@ function App() {
 
   return (
     <>
+      <h1 className='font-bold text-3xl text-red-700'>Testing node modules</h1>
       {showBoard ? (
         <Board taskList={taskList} goBack={onHandleBack}/>
       ) : (
