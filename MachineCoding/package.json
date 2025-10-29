@@ -7,6 +7,7 @@
         "dev:weather": "npm --workspace weatherApp run dev",
         "dev:movie": "npm --workspace movieLibrary run dev",
         "dev:cafe" : "npm --workspace findCafes run dev",
-        "dev:tic-tac-toe" : "npm --workspace tic-tac-toe run dev"
+        "dev:tic-tac-toe" : "npm --workspace tic-tac-toe run dev",
+        "dev:autoComplete" : "npm --workspace autoCompleteSearch run dev"
     }
 }
