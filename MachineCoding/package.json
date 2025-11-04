@@ -8,6 +8,7 @@
         "dev:movie": "npm --workspace movieLibrary run dev",
         "dev:cafe" : "npm --workspace findCafes run dev",
         "dev:tic-tac-toe" : "npm --workspace tic-tac-toe run dev",
-        "dev:autoComplete" : "npm --workspace autoCompleteSearch run dev"
+        "dev:autoComplete" : "npm --workspace autoCompleteSearch run dev",
+        "dev:tabForm" : "npm --workspace tabForm run dev"
     }
 }
