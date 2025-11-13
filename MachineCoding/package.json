@@ -10,6 +10,8 @@
         "dev:tic-tac-toe" : "npm --workspace tic-tac-toe run dev",
         "dev:autoComplete" : "npm --workspace autoCompleteSearch run dev",
         "dev:tabForm" : "npm --workspace tabForm run dev",
-        "dev:otp" : "npm --workspace otpComp run dev"
+        "dev:otp" : "npm --workspace otpComp run dev",
+        "dev:nestedCheckboxes" : "npm --workspace nestedCheckboxes run dev",
+        "dev:chipsComponent" : "npm --workspace chipsComponent run dev"
     }
 }
