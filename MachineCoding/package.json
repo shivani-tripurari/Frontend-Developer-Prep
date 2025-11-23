@@ -12,6 +12,7 @@
         "dev:tabForm" : "npm --workspace tabForm run dev",
         "dev:otp" : "npm --workspace otpComp run dev",
         "dev:nestedCheckboxes" : "npm --workspace nestedCheckboxes run dev",
-        "dev:chipsComponent" : "npm --workspace chipsComponent run dev"
+        "dev:chipsComponent" : "npm --workspace chipsComponent run dev",
+        "dev:genericUI" : "npm --workspace genericUIRenderer run dev"
     }
 }
