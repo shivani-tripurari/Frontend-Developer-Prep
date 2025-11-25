@@ -14,6 +14,7 @@
         "dev:nestedCheckboxes" : "npm --workspace nestedCheckboxes run dev",
         "dev:chipsComponent" : "npm --workspace chipsComponent run dev",
         "dev:genericUI" : "npm --workspace genericUIRenderer run dev",
-        "dev:progressBar" : "npm --workspace progressBar run dev"
+        "dev:progressBar" : "npm --workspace progressBar run dev",
+        "dev:nestedComments" : "npm --workspace nestedComments run dev"
     }
 }
